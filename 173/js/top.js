@@ -12,7 +12,7 @@ window.onload = function () {
     //创建元素
     var div = document.createElement("div");
     div.id = "_goTop";
-    div.innerHTML = "<img src='picture/top1808.png'/>";
+    div.innerHTML = "<img src='https://cdn.jsdelivr.net/gh/cdnemcc/173@292/173/picture/top1808.png'/>";
     document.body.appendChild(div);
  
     //控制显示和隐藏
