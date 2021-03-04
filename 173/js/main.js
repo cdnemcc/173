@@ -298,43 +298,6 @@ $(document).ready(function(){
 	}
 
 
-
-	
-
-	// LAZYLOAD
-	$('.excerpts .thumb').lazyload({
-        data_attribute: 'src',
-        threshold: 400
-    });
-
-    $('.postitems .thumb').lazyload({
-        data_attribute: 'src',
-        threshold: 400
-    });
-
-    $('.sidebar .thumb').lazyload({
-        data_attribute: 'src',
-        threshold: 400
-    });
-
-
-    $('.sidebar .avatar').lazyload({
-        data_attribute: 'src',
-        threshold: 400
-    });
-
-    $('.comments-respond .avatar').lazyload({
-        data_attribute: 'src',
-        threshold: 400
-    });
-
-    $('.postcomments .avatar').lazyload({
-        data_attribute: 'src',
-        threshold: 400
-    });
-
-
-
     // TIPSY
 	if( !isMobile.any ){
 		$('[tipsy]').tipsy();

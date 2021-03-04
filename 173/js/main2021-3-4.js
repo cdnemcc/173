@@ -378,42 +378,6 @@ $(document).ready(function(){
     })
 
 
-    
-
-
-    // ROLLBAR
-	TBUI.bd.append('<div class="rollbar">'+ (is_page('comment-open') ? '<div class="rollbar-item" etap="to_comments"><i class="fa">&#xe602;</i></div>' : '') +'<div class="rollbar-item" etap="to_top"><i class="fa">&#xe604;</i></div></div>')
-
-	var scroller = $('.rollbar')
-	$(window).scroll(function() {
-	    var h = document.documentElement.scrollTop + document.body.scrollTop
-	    h > 200 ? scroller.fadeIn() : scroller.fadeOut();
-	})
-
-
-	$('[etap="to_comments"]').on(TBUI.click, function(){
-		$('html,body').animate({
-            scrollTop: $('#comments').offset().top + 15
-        }, 300, function(){
-        	$('#comment').focus()
-        })
-	})
-
-	$('[etap="to_top"]').on(TBUI.click, function(){
-		$('html,body').animate({
-            scrollTop: 0
-        }, 300)
-	})
-
-
-
-
-	
-
-
-
-
-
     // SHARE IMAGE
     if( TBUI.shareimage ){
         if( !TBUI.shareimagethumb && $('.article-content img:first').length ){
