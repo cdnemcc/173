@@ -732,7 +732,7 @@ body {position:relative; margin:0; padding:0;}
 .direction_left{ float:left; background-position:0 0;}
 .direction_right{ float:right; background-position:-37px 0;}
 /*tag css*/
-.tag2 {height: 20px;padding: 15px 10px; clear:both}
-.tag2 span{float: left;line-height: 22px;}
-.tag2 a{float:left;text-decoration:none;padding: 0 10px;line-height: 20px;background: #eee;margin-left: 10px;}
+.m-list-content-tag {height: 20px;padding: 15px 10px; clear:both}
+.m-list-content-tag span{float: left;line-height: 22px;}
+.m-list-content-tag a{float:left;text-decoration:none;padding: 0 10px;line-height: 20px;background: #eee;margin-left: 10px;}
 
